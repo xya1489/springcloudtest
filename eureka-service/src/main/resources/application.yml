@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: compute-serviceA
+server:
+  port: 2333
+eureka:
+  client:
+    serviceUrl:
+        defaultZone: http://localhost:8761/eureka/
